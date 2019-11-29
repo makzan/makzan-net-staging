@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	xml:base="/wp-atom.php"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+	<title type="text">Makzan</title>
+	<subtitle type="text">I share what I learnt</subtitle>
+
+	<updated>2019-10-25T03:46:04Z</updated>
+
+	<link rel="alternate" type="text/html" href="/" />
+	<id>/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="/feed/atom/" />
+
+	<generator uri="https://wordpress.org/" version="5.3">WordPress</generator>
+<icon>/wp-content/uploads/2015/12/cropped-mz-logo-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[I write in Basecamp]]></title>
+		<link rel="alternate" type="text/html" href="/2019/10/i-write-in-basecamp/" />
+		<id>/?p=1234</id>
+		<updated>2019-10-25T03:46:04Z</updated>
+		<published>2019-10-25T03:46:04Z</published>
+		<category scheme="/" term="Productivity" /><category scheme="/" term="Using Basecamp" /><category scheme="/" term="Writing" />		<summary type="html"><![CDATA[Recently, I write in Basecamp. It helps me to focus on the single piece of document. Basecamp is project management tool that encourages context based communication for teams. I have been using Basecamp solo and enjoying the tools it provides. Recently, I’m using Basecamp to write. There are 2 states when writing a document in [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/10/i-write-in-basecamp/"><![CDATA[<p>Recently, I write in Basecamp. It helps me to focus on the single piece of document.</p>
+<p>Basecamp is project management tool that encourages context based communication for teams. I have been using Basecamp solo and enjoying the tools it provides. Recently, I’m using Basecamp to write.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="Screen Shot 2019-10-25 at 11.27.16 AM.png" src="/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.27.16-AM.png" alt="Screen Shot 2019 10 25 at 11 27 16 AM" width="783" height="304" border="0" /><br />There are 2 states when writing a document in Basecamp. They are either drafts or published. Drafts are private to owner. In my solo Basecamp project, published document is only visible to me as well. I used the “Draft” state for any writing-in-progress document. I can quickly access to my these unfinished drafts through the “My Drafts” link. When the writings is ready for editing, I “post” it as published state and store it in the “Docs &amp; Files” area.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="Screen Shot 2019-10-25 at 11.22.30 AM.png" src="/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.22.30-AM.png" alt="Screen Shot 2019 10 25 at 11 22 30 AM" width="989" height="507" border="0" /></p>
+<p>If I need to seek external review for my copywriting, I can share the document via a public link with random hash. </p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="Screen Shot 2019-10-25 at 11.24.08 AM.png" src="/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.24.08-AM.png" alt="Screen Shot 2019 10 25 at 11 24 08 AM" width="843" height="374" border="0" /></p>
+<p>Unlike writing app that often provides immediate edit and auto-save-and-sync functionality. The editing process is quite manual in Basecamp. I need to click “edit” every time when I want to make change. And “save” when I’m done writing. The extra steps to edit and save the document is quite similar to the code check-out and check-in approach. It helps me to stay focus in this distraction world. It is like having a un-staged changes in `git status`. I need to type as much as possible in the document and then click “save” to check-in the writing changes.</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" title="Screen Shot 2019-10-25 at 11.27.59 AM.png" src="/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.27.59-AM.png" alt="Screen Shot 2019 10 25 at 11 27 59 AM" width="438" height="106" border="0" /></p>
+<p>Of course, the editor in Basecamp does auto-save the content in local storage until it is being saved to server. So my content won’t be lost. But the “un-staged” state forces me to finish something before I save it again, so that I don’t feel guilty of not writing anything before save, or not saving before I get distracted.</p>
+<p>After finishing the writing, I can then copy the text to the final destination process. If it is an email, I copy the rich text to the mail client. If it is a blog, I copy the rich text to the WordPress editor and re-upload the images. If it is a markdown output, I copy the HTML code and convert them into markdown. Or I just copy the simple rich text into to markdown file if they are plain text article. </p>
+<p>The exporting process may not be ideal, but it doesn’t take too much time when comparing to the time wasted in writing nothing in distracted environment.</p>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/10/i-write-in-basecamp/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/10/i-write-in-basecamp/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[An experiment on writing in iA Writer and sync to Working Copy]]></title>
+		<link rel="alternate" type="text/html" href="/2019/05/an-experiment-on-writing-in-ia-writer-and-sync-to-working-copy/" />
+		<id>/?p=1203</id>
+		<updated>2019-05-28T15:00:00Z</updated>
+		<published>2019-05-28T15:00:00Z</published>
+		<category scheme="/" term="Working on iPad" /><category scheme="/" term="Writing" />		<summary type="html"><![CDATA[This is an experiment on using the Markdown Block in Working Copy with iA Writer. Working Copy supports Markdown Block as well While I can preview a single markdown file in Work Copy previously, the latest Working Copy updates include the support of Markdown content block. Although it is not like iA writer that supports [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/05/an-experiment-on-writing-in-ia-writer-and-sync-to-working-copy/"><![CDATA[<p>This is an experiment on using the Markdown Block in Working Copy with iA Writer.</p>
+<h2>Working Copy supports Markdown Block as well</h2>
+<p>While I can preview a single markdown file in Work Copy previously, the latest Working Copy updates include the support of Markdown content block. Although it is not like iA writer that supports nested inclusion, It is already a good start to have Working Copy previewing the main document which includes sub-modules.</p>
+<h2>External display as preview output</h2>
+<p>Inspiring from <a href="https://www.macstories.net/stories/beyond-the-tablet/3/">MacStories</a>, I can actually use iA Writer and Working Copy together to write and preview at the same time, while connecting to external display.</p>
+<figure><img src="/wp-content/uploads/2019/05/external-display.png" alt="Illustrated my setup" /><figcaption>Illustrated my setup</figcaption></figure>
+<p>Note: Actually, the sync is not too stable when opening the same file at the same time in both apps. So it is still reliable to use single iA Writer app to write and only switch to Working Copy for git-related operation.</p>
+<p>Also, I don’t actually need the preview all the time. The beauty of Markdown is the ability to <em>read</em> the plain text and <em>feel</em> the styles.</p>
+<h2>Compiling to multiple sources with Markdown Block</h2>
+<p>By using different compilation main files, I can create different compilers that generate different final documents, such as HTML books, slides, cheat sheet.</p>
+<figure><img src="/wp-content/uploads/2019/05/generators-for-pieces-of-markdowns.png" alt="Compile to different outputs from pieces of source." /><figcaption>Compile to different outputs from pieces of source.</figcaption></figure>
+<p>So it is more like programming, with following similarities:</p>
+<ul>
+<li>Syntax highlight in iA Writer</li>
+<li>Divide writings into separated files for different purposes.</li>
+<li>Different compile script to generate different output.</li>
+<li>Version control with Github.</li>
+<li>Reuse parts in different modules (outputs)</li>
+</ul>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/05/an-experiment-on-writing-in-ia-writer-and-sync-to-working-copy/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/05/an-experiment-on-writing-in-ia-writer-and-sync-to-working-copy/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[Using DocRaptor to generate PDF]]></title>
+		<link rel="alternate" type="text/html" href="/2019/05/using-docraptor-to-generate-pdf/" />
+		<id>/?p=1185</id>
+		<updated>2019-05-28T15:51:27Z</updated>
+		<published>2019-05-18T08:36:17Z</published>
+		<category scheme="/" term="DocRaptor" /><category scheme="/" term="Writing" />		<summary type="html"><![CDATA[This is the first post on my journal of using DocRaptor to generate PDF. I will keep posting how I use the PDF generator for my course materials. I write online courses on MakClass.com and would like to generate PDF book from my teaching materials. Previously, I had been using LeanPub to generate the PDFs. I also try generating [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/05/using-docraptor-to-generate-pdf/"><![CDATA[
+<p>This is the first post on my journal of using DocRaptor to generate PDF. I will keep posting how I use the PDF generator for my course materials.</p>
+
+
+
+<p>I write online courses on <a href="https://makclass.com/classrooms/mobile-web">MakClass.com</a> and would like to generate PDF book from my teaching materials. Previously, I had been using <a href="https://leanpub.com/u/makzan">LeanPub</a> to generate the PDFs. I also try generating PDF quickly by using Ulysses’ PDF export. But I need more freedoms than these approaches. I know that <a href="https://www.princexml.com/">PrinceXML</a> is the go-to PDF generation engine for converting my HTML content into PDF. But the price is too expensive for me until I met the <a href="https://docraptor.com/">DocRaptor</a>. It provides the same PrinceXML engine but charges as a subscription base. 150 documents generation per month fits my needs. So I’m now trying to create PDF slides and PDF books from my course writings.</p>
+
+
+
+<p>These are my 2 main categories:</p>
+
+
+
+<ol><li>Book content, such as my <a href="https://makclass.com/classrooms/mobile-web">mobile first web design course</a>.</li><li>Markdown slides, such as my <a href="https://python-for-beginners-slides.netlify.com/?md=inputs-and-file-operations.md">Python slide</a>.</li></ol>
+
+
+
+<p>Here are the results so far:</p>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="1186" data-permalink="/2019/05/using-docraptor-to-generate-pdf/book-pdf-output/" data-orig-file="/wp-content/uploads/2019/05/book-pdf-output.png" data-orig-size="2106,1257" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="book-pdf-output" data-image-description="" data-medium-file="/wp-content/uploads/2019/05/book-pdf-output-300x179.png" data-large-file="/wp-content/uploads/2019/05/book-pdf-output-1400x836.png" src="/wp-content/uploads/2019/05/book-pdf-output-1400x836.png" alt="" class="wp-image-1186" srcset="/wp-content/uploads/2019/05/book-pdf-output-1400x836.png 1400w, /wp-content/uploads/2019/05/book-pdf-output-300x179.png 300w, /wp-content/uploads/2019/05/book-pdf-output-768x458.png 768w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="1192" data-permalink="/2019/05/using-docraptor-to-generate-pdf/slides-pdf-output-1/" data-orig-file="/wp-content/uploads/2019/05/slides-pdf-output-1.png" data-orig-size="2106,1257" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="slides-pdf-output-1" data-image-description="" data-medium-file="/wp-content/uploads/2019/05/slides-pdf-output-1-300x179.png" data-large-file="/wp-content/uploads/2019/05/slides-pdf-output-1-1400x836.png" src="/wp-content/uploads/2019/05/slides-pdf-output-1-1400x836.png" alt="" class="wp-image-1192" srcset="/wp-content/uploads/2019/05/slides-pdf-output-1-1400x836.png 1400w, /wp-content/uploads/2019/05/slides-pdf-output-1-300x179.png 300w, /wp-content/uploads/2019/05/slides-pdf-output-1-768x458.png 768w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p>The result is so far so good. I am able to generate the book content into LeanPub similar result. The remote images are successfully embedded. I haven’t add code syntax highlighting yet. But the highlight works in my slides PDF output.</p>
+
+
+
+<p>What works so far:</p>
+
+
+
+<ul><li>Almost exactly the same output between PDF and HTML/CSS.</li><li>Can create multiple columns by using float and CSS columns.</li></ul>
+
+
+
+<p>What needs more work:</p>
+
+
+
+<ul><li>Avoid content overflow in slide, especially code blocks.</li><li>Add code syntax highlight to book PDF generation.</li><li>Add outline to the output PDF.</li></ul>
+
+
+
+<p>Here are the PDF output:</p>
+
+
+
+<div class="wp-block-file"><a href="/wp-content/uploads/2019/05/doc-95123758-book.pdf">doc-95123758-book</a><a href="/wp-content/uploads/2019/05/doc-95123758-book.pdf" class="wp-block-file__button" download>Download</a></div>
+
+
+
+<div class="wp-block-file"><a href="/wp-content/uploads/2019/05/doc-95125193-slides.pdf">doc-95125193-slides</a><a href="/wp-content/uploads/2019/05/doc-95125193-slides.pdf" class="wp-block-file__button" download>Download</a></div>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/05/using-docraptor-to-generate-pdf/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/05/using-docraptor-to-generate-pdf/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[Makzan’s Weekly 2019w17: iOS Automation]]></title>
+		<link rel="alternate" type="text/html" href="/2019/05/makzans-weekly-2019w17-ios-automation/" />
+		<id>/?p=1180</id>
+		<updated>2019-05-01T04:12:49Z</updated>
+		<published>2019-05-01T04:12:47Z</published>
+		<category scheme="/" term="Email newsletter" /><category scheme="/" term="Productivity" />		<summary type="html"><![CDATA[Link: https://mailchi.mp/makzan/2019w17 The&#160;shortcuts&#160;app and Pythonista app allows us to create many different kinds of automation in mobile devices that fit our own needs.&#160; For example, a&#160;simple python script&#160;to download file into iCloud Drive. A&#160;simple PDF to image&#160;conversion. Or we can create&#160;more complicated shortcuts.&#160; Building this kind of automation requires the sense of programming. By making [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/05/makzans-weekly-2019w17-ios-automation/"><![CDATA[<p>Link: <a href="https://mailchi.mp/makzan/2019w17">https://mailchi.mp/makzan/2019w17</a></p>
+<blockquote><p>The&nbsp;<u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=61b339e2ad&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">shortcuts</a></u>&nbsp;app and Pythonista app allows us to create many different kinds of automation in mobile devices that fit our own needs.&nbsp;</p>
+</blockquote>
+<blockquote><p>For example, a&nbsp;<u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=b70a4d3536&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">simple python script</a></u>&nbsp;to download file into iCloud Drive. A&nbsp;<u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=636c20c28b&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">simple PDF to image&nbsp;</a></u>conversion. Or we can create&nbsp;<u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=428f3e2acd&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">more complicated shortcuts</a></u>.&nbsp;</p>
+</blockquote>
+<blockquote><p>Building this kind of automation requires the sense of programming. By making the programming as simple as putting different blocks together that runs on iOS, we are really lowering the burden of programming skills. This encourages every one to automate their daily workflow. At least they can download and tweak the shortcut workflows if not creating a new one from scratch.&nbsp;</p>
+</blockquote>
+<blockquote><p>Links worth sharing</p>
+</blockquote>
+<blockquote>
+<ul>
+<li>AMP, No thanks&nbsp;→&nbsp;<a href="https://unlikekinds.com/article/google-amp-page-speed">Google AMP lowered our page speed, and there&#8217;s no choice but to use it</a></li>
+</ul>
+<ul>
+<li><u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=8097dd489e&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">Coder Server</a></u>&nbsp;→ An open source project that runs VS Code on server</li>
+</ul>
+<ul>
+<li>From Pomodoro to uninterrupted time block&nbsp;→&nbsp;<u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=a254e90f03&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">Flow time</a></u></li>
+</ul>
+<ul>
+<li>An old post from me →&nbsp;<u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=af2bfc37e3&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline">Sharing of my career path</a></u></li>
+</ul>
+<p><strong>Quote worth sharing</strong></p>
+<p><span style="caret-color: rgb(24, 24, 24); color: rgb(24, 24, 24); font-family" source sans pro neue helvetica arial sans-serif font-size: font-style: normal font-variant-caps: font-weight: letter-spacing: orphans: auto text-align: left text-indent: text-transform: none white-space: widows: word-spacing: rgba background-color: rgb text-decoration: display: inline float:>“Do less, then obsess” —&nbsp;</span><u><a href="https://makzan.us7.list-manage.com/track/click?u=b3e89624215a261114b477511&#038;id=f08273753c&#038;e=9ea8ace486" style="-webkit-text-size-adjust: 100%; color: rgb(204, 72, 39); font-weight: normal; text-decoration: underline; font-family" source sans pro neue helvetica arial sans-serif font-size: font-style: normal font-variant-caps: letter-spacing: orphans: auto text-align: left text-indent: text-transform: none white-space: widows: word-spacing: rgba>Great at Work</a></u></p>
+</blockquote>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/05/makzans-weekly-2019w17-ios-automation/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/05/makzans-weekly-2019w17-ios-automation/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[iOS Shortcut: Convert PDF to Image]]></title>
+		<link rel="alternate" type="text/html" href="/2019/04/ios-shortcut-convert-pdf-to-image/" />
+		<id>/2019/04/ios-shortcut-convert-pdf-to-image/</id>
+		<updated>2019-04-29T09:29:25Z</updated>
+		<published>2019-04-29T09:29:25Z</published>
+		<category scheme="/" term="Shortcuts" /><category scheme="/" term="Working on iPad" />		<summary type="html"><![CDATA[This is a simple shortcut that convert PDF into images. I often need to save PDF into image into other image-only application such as Day One journal. These PDFs may be a document scan, a screenshot of website via “Create PDF” from Safari. This is my go-to shortcut for these purposes. https://www.icloud.com/shortcuts/b22e373ebd344c5e910512f5d7968c34]]></summary>
+				<content type="html" xml:base="/2019/04/ios-shortcut-convert-pdf-to-image/"><![CDATA[<p>This is a simple shortcut that convert PDF into images.</p>
+<p>I often need to save PDF into image into other image-only application such as Day One journal. These PDFs may be a document scan, a screenshot of website via “Create PDF” from Safari. This is my go-to shortcut for these purposes.</p>
+<p><a href="https://www.icloud.com/shortcuts/b22e373ebd344c5e910512f5d7968c34">https://www.icloud.com/shortcuts/b22e373ebd344c5e910512f5d7968c34</a></p>
+<p><img data-attachment-id="1158" data-permalink="/2019/04/ios-shortcut-convert-pdf-to-image/img_0239/" data-orig-file="/wp-content/uploads/2019/04/img_0239.jpg" data-orig-size="1943,1009" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_0239" data-image-description="" data-medium-file="/wp-content/uploads/2019/04/img_0239-300x156.jpg" data-large-file="/wp-content/uploads/2019/04/img_0239-1400x727.jpg" src="/wp-content/uploads/2019/04/img_0239.jpg" class="size-full wp-image-1158" width="1943" height="1009" srcset="/wp-content/uploads/2019/04/img_0239.jpg 1943w, /wp-content/uploads/2019/04/img_0239-300x156.jpg 300w, /wp-content/uploads/2019/04/img_0239-768x399.jpg 768w, /wp-content/uploads/2019/04/img_0239-1400x727.jpg 1400w" sizes="(max-width: 1943px) 100vw, 1943px" /></p>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/04/ios-shortcut-convert-pdf-to-image/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/04/ios-shortcut-convert-pdf-to-image/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[A simple Python script to download file in iOS]]></title>
+		<link rel="alternate" type="text/html" href="/2019/04/a-simple-python-script-to-download-file-in-ios/" />
+		<id>/2019/04/a-simple-python-script-to-download-file-in-ios/</id>
+		<updated>2019-04-29T00:04:30Z</updated>
+		<published>2019-04-29T00:04:30Z</published>
+		<category scheme="/" term="Code Snippets" /><category scheme="/" term="Productivity" /><category scheme="/" term="Working on iPad" />		<summary type="html"><![CDATA[from urllib.request import urlretrieve  url = input('URL: ') filename = url.split('/')[-1] urlretrieve(url, filename) print("Downloaded file: {}".format(filename))]]></summary>
+				<content type="html" xml:base="/2019/04/a-simple-python-script-to-download-file-in-ios/"><![CDATA[<p><img data-attachment-id="1151" data-permalink="/2019/04/a-simple-python-script-to-download-file-in-ios/img_8070-1/" data-orig-file="/wp-content/uploads/2019/04/img_8070-1.jpg" data-orig-size="1125,721" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="img_8070-1" data-image-description="" data-medium-file="/wp-content/uploads/2019/04/img_8070-1-300x192.jpg" data-large-file="/wp-content/uploads/2019/04/img_8070-1.jpg" src="/wp-content/uploads/2019/04/img_8070-1.jpg" class="aligncenter size-full wp-image-1151" width="1125" height="721" srcset="/wp-content/uploads/2019/04/img_8070-1.jpg 1125w, /wp-content/uploads/2019/04/img_8070-1-300x192.jpg 300w, /wp-content/uploads/2019/04/img_8070-1-768x492.jpg 768w" sizes="(max-width: 1125px) 100vw, 1125px" /></p>
+<pre><code>from urllib.request import urlretrieve  url = input('URL: ') filename = url.split('/')[-1] urlretrieve(url, filename) print("Downloaded file: {}".format(filename))</code></pre>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/04/a-simple-python-script-to-download-file-in-ios/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/04/a-simple-python-script-to-download-file-in-ios/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[Trying PreText]]></title>
+		<link rel="alternate" type="text/html" href="/2019/04/trying-pretext/" />
+		<id>/?p=1111</id>
+		<updated>2019-04-20T08:32:16Z</updated>
+		<published>2019-04-20T08:32:16Z</published>
+		<category scheme="/" term="Today I Learned" /><category scheme="/" term="Working on iPad" /><category scheme="/" term="Writing" />		<summary type="html"><![CDATA[From the latest MacStories newsletter, I learnt a new app called PreText. It is as if the TextEdit app all from macOS migrated into iOS. It does only one thing, text editing with files provider, and that is all we need sometimes. Although this app is not a replacement to my current writing workflow, it [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/04/trying-pretext/"><![CDATA[<p>From the latest MacStories newsletter, I learnt a new app called <a href="https://itunes.apple.com/hk/app/pretext/id1347707000?l=en&amp;mt=8">PreText</a>.</p>
+<figure><img src="/wp-content/uploads/2019/04/pretext-screenshot.png" alt="" /></figure>
+<p>It is as if the TextEdit app all from macOS migrated into iOS. It does only one thing, text editing with files provider, and that is all we need sometimes.</p>
+<p>Although this app is not a replacement to my current writing workflow, it has the value as a general purpose text editor for iOS file system, including iCloud storage and all the apps that provide document provider.</p>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/04/trying-pretext/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/04/trying-pretext/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[Setting header and footer for DocRaptor and PrinceXML PDF generation]]></title>
+		<link rel="alternate" type="text/html" href="/2019/04/setting-header-and-footer-for-docraptor-and-princexml-pdf-generation/" />
+		<id>/?p=1107</id>
+		<updated>2019-05-28T15:55:57Z</updated>
+		<published>2019-04-20T02:40:08Z</published>
+		<category scheme="/" term="DocRaptor" /><category scheme="/" term="Today I Learned" /><category scheme="/" term="Writing" />		<summary type="html"><![CDATA[I’m setting the header and footer content while using the DocRaptor and PrinceXML engine. Nothing appears on the header and footer until I give the page some margin. That is my lesson learnt. Originally I configure the @page margin to be 0 and use only page padding. This works until I need to place the [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/04/setting-header-and-footer-for-docraptor-and-princexml-pdf-generation/"><![CDATA[<p>I’m setting the header and footer content while using the DocRaptor and PrinceXML engine.</p>
+<p><img data-attachment-id="1108" data-permalink="/2019/04/setting-header-and-footer-for-docraptor-and-princexml-pdf-generation/c6592d25-4faa-4a44-ad10-a3f6f51c8f81/" data-orig-file="/wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81.jpeg" data-orig-size="2692,1915" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="C6592D25-4FAA-4A44-AD10-A3F6F51C8F81" data-image-description="" data-medium-file="/wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-300x213.jpeg" data-large-file="/wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-1400x996.jpeg" class="alignnone size-full wp-image-1108" src="/wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81.jpeg" alt="C6592D25-4FAA-4A44-AD10-A3F6F51C8F81" width="2692" height="1915" srcset="/wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81.jpeg 2692w, /wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-300x213.jpeg 300w, /wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-768x546.jpeg 768w, /wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-1400x996.jpeg 1400w, /wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-112x80.jpeg 112w, /wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-1600x1138.jpeg 1600w, /wp-content/uploads/2019/04/C6592D25-4FAA-4A44-AD10-A3F6F51C8F81-1920x1366.jpeg 1920w" sizes="(max-width: 2692px) 100vw, 2692px" /></p>
+<p>Nothing appears on the header and footer until I give the page some margin. That is my lesson learnt.</p>
+<p>Originally I configure the <code>@page</code> margin to be 0 and use only page padding. This works until I need to place the book title name page number in the header and footer area.</p>
+<blockquote><p>headers and footers are positioned inside these page margins and are not part of the page content — <a href="http://help.docraptor.com/pdf-styling-and-troubleshooting/advanced-topics/headers-footers-for-pdfs">DocRaptor Doc</a></p></blockquote>
+<p>The header and footer is not part of the content. They are part of the margin. So the margin must be enough for the header and footer content to appear.</p>
+<p>Here is my latest CSS to configure the page to allow header and footer content to appear.</p>
+<pre><code class="css">@page {
+  size: A4 landscape;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15mm;
+  margin-bottom: 15mm;
+  padding: 10mm 25mm;
+  
+  @top-left {
+    content: "Mobile First Web Design";
+    padding-left: 25mm;
+    font-family: sans-serif;
+    font-size: .8rem;
+  }
+  
+  @bottom-right {
+    font-size: .8rem;
+    content: counter(page);
+    padding-right: 25mm;
+    font-family: sans-serif;    
+  }
+}
+</code></pre>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/04/setting-header-and-footer-for-docraptor-and-princexml-pdf-generation/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/04/setting-header-and-footer-for-docraptor-and-princexml-pdf-generation/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[Migrating inQRCode.com from Ruby on Rails to static hosting]]></title>
+		<link rel="alternate" type="text/html" href="/2019/04/migrating-inqrcode-com-from-ruby-on-rails-to-static-hosting/" />
+		<id>/?p=1105</id>
+		<updated>2019-04-28T16:12:00Z</updated>
+		<published>2019-04-05T04:11:18Z</published>
+		<category scheme="/" term="Game Development" /><category scheme="/" term="Products" />		<summary type="html"><![CDATA[I often need to have a quick QR code generation from URLs. Really quick. For example, when I am teaching mobile web class, I demonstrate the code and put the QR code up on screen for students to scan into their mobile phones for testing. That’s why I had written a tiny tool named inQRCode.com. [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/04/migrating-inqrcode-com-from-ruby-on-rails-to-static-hosting/"><![CDATA[<p>I often need to have a quick QR code generation from URLs. Really quick. For example, when I am teaching mobile web class, I demonstrate the code and put the QR code up on screen for students to scan into their mobile phones for testing.</p>
+<p>That’s why I had written a tiny tool named inQRCode.com. I can append any URL to it. For example, when I was in https://example.com,/ I can simply prepend the tool URL into https://inQRCode.com/https://example.com to generate the QRCode for that.</p>
+<p>Previously I used Ruby on Rails to implement this tool. It was overkilled. Earlier this year, I rewrite the tool into <a href="https://github.com/makzan/inqrcode.com">static HTML</a> and hosted on <a href="https://www.netlify.com/">Netlify</a>.</p>
+<p>I need to route everything into the <code>index.html</code> for the <a href="https://github.com/davidshimjs/qrcodejs">JavaScript based QR code generation</a>. The <a href="https://www.netlify.com/docs/redirects/">_redirect</a> feature in Netlify can facilitate this requirement.</p>
+<p>In my <code>_redirect</code> file, I route every URL to <code>index.html</code>.</p>
+<pre><code>/* /index.html 200</code></pre>
+<p>That is how I migrated the inQRCode.com into static hosting.</p>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/04/migrating-inqrcode-com-from-ruby-on-rails-to-static-hosting/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/04/migrating-inqrcode-com-from-ruby-on-rails-to-static-hosting/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Makzan</name>
+					</author>
+		<title type="html"><![CDATA[Why I keep switching editor when iA writer + Working Copy fulfill my writing needs?]]></title>
+		<link rel="alternate" type="text/html" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/" />
+		<id>/?p=1098</id>
+		<updated>2019-04-02T08:59:34Z</updated>
+		<published>2019-04-02T08:59:32Z</published>
+		<category scheme="/" term="Thoughts" /><category scheme="/" term="Working on iPad" /><category scheme="/" term="Writing" />		<summary type="html"><![CDATA[I have been switching between iA writer, Ulysses, Bear, Scrivener, Ulysses, Bear, Drafts and so on. Switching between them back and forth to seek the best writing workflow that works for me. What setup I need to support my writing? First of all, I write books, slides, short class notes, blog posts. I write in [&#8230;]]]></summary>
+				<content type="html" xml:base="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/"><![CDATA[<p>I have been switching between iA writer, Ulysses, Bear, Scrivener, Ulysses, Bear, Drafts and so on. Switching between them back and forth to seek the best writing workflow that works for me.</p>
+<p>What setup I need to support my writing?</p>
+<p>First of all, I write books, slides, short class notes, blog posts. I write in every device that I have access to. I write on iPad, iPhone, Mac and occasionally on Windows.</p>
+<p>I am not seeking one app to rule them all. Every app has its strength and what I&#8217;m seeking is a good workflow. The workflow should be as easy and straightforward as possible.</p>
+<p>The following is how I use iA Writer and Working Copy to achieve my writing workflow.</p>
+<p>There are different stages of my writings. There are drafts, short-term posts, long-term posts, teaching writings.</p>
+<h2>Drafts</h2>
+<p>Drafts are rapid typing and they keep changing until a 2nd draft rewrite. So usually drafts stay in iCloud inside iA Writer. The first draft process could take a day or two to finish. During the writing of 1st draft, I will keep switching devices based on my working environment. So keeping it in iCloud benefits me to keep elaborating the ideas and expanding the draft. I can write on all my devices and let the iCloud syncs my drafts instantly.</p>
+<h2>Short-term writings</h2>
+<p>If the draft is only needed in short-term, I can simply deliver the text after writing and then archive it. All process happens within iCloud without moving to Working Copy.</p>
+<h2>Long-term writings</h2>
+<p>If the draft is long-term, I rewrite the draft into 2nd draft. When the draft becomes more stable, it is time to put into the Git repository. More specifically, I put the file into Working Copy and push to Github.</p>
+<p>I have a Git repository called `all-writings`. It stores all my writings that are not categories into any projects. I clone the repository into Working Copy and mount the folder to iA Writer using its external folder feature.</p>
+<blockquote>
+<p lang="en" dir="ltr">Add folders in <a href="https://twitter.com/iAWriter?ref_src=twsrc%5Etfw">@iawriter</a> and have edits and file operations done directly to your repositories. <a href="https://t.co/XIIuTZAMAe">pic.twitter.com/XIIuTZAMAe</a></p>
+<p>— Working Copy (@WorkingCopyApp) <a href="https://twitter.com/WorkingCopyApp/status/1101039464225431552?ref_src=twsrc%5Etfw">February 28, 2019</a></p>
+</blockquote>
+<p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Teaching Materials</h2>
+<p>Teaching materials are long-term writings. They are also like programming code that my writings are the source of the teaching session. I create a repository for each teaching and writing projects and clone them into Working Copy.</p>
+<p><img src="/wp-content/uploads/2019/04/image-2.jpg" class="size-full" width="2732" height="2048" alt="Screenshot of Working Copy holding my book writing project."></p>
+<p>One variant of teaching materials is the book. Book needs further post-processing to create PDF and eBook output. Git repository, as a single source of trust, could be feed into the post-processing script for further generation.</p>
+<p>I used to use LeanPub’s PDF generation for this process workflow. Now I&#8217;m exploring DocRaptor PDF generator API.</p>
+]]></content>
+						<link rel="replies" type="text/html" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/#comments" thr:count="1"/>
+		<link rel="replies" type="application/atom+xml" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/feed/atom/" thr:count="1"/>
+		<thr:total>1</thr:total>
+			</entry>
+	</feed>

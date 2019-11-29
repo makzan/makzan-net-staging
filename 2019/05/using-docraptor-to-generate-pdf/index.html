@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+	<head>
+
+		<meta charset="utf-8" />
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		
+		<link rel="pingback" href="/xmlrpc.php">
+		<link rel="alternate" type="application/rss+xml" title="Makzan" href="/feed/atom/">
+
+		
+		<title>Using DocRaptor to generate PDF &#8211; Makzan</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-style-css'  href='//fonts.googleapis.com/css?family=Lato:400,400italic,900' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='/wp-content/themes/ponder/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='youxi-shortcode-bootstrap-css'  href='/wp-content/plugins/youxi-shortcode/assets/frontend/bootstrap/css/bootstrap.min.css?ver=4.0.0-alpha6' type='text/css' media='screen' />
+<link rel='stylesheet' id='leaflet-css'  href='/wp-content/plugins/youxi-shortcode/assets/frontend/plugins/leaflet/leaflet.css?ver=0.7.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='jetpack_css-css'  href='/wp-content/plugins/jetpack/css/jetpack.css?ver=7.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel='prev' title='Makzan’s Weekly 2019w17: iOS Automation' href='/2019/05/makzans-weekly-2019w17-ios-automation/' />
+<link rel='next' title='An experiment on writing in iA Writer and sync to Working Copy' href='/2019/05/an-experiment-on-writing-in-ia-writer-and-sync-to-working-copy/' />
+<link rel="canonical" href="/2019/05/using-docraptor-to-generate-pdf/" />
+<link rel='shortlink' href='https://wp.me/p6ZUtL-j7' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2019%2F05%2Fusing-docraptor-to-generate-pdf%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2019%2F05%2Fusing-docraptor-to-generate-pdf%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'/>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//s1.wp.com'/>
+<link rel='dns-prefetch' href='//s2.wp.com'/>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'/>
+<link rel='dns-prefetch' href='//0.gravatar.com'/>
+<link rel='dns-prefetch' href='//1.gravatar.com'/>
+<link rel='dns-prefetch' href='//2.gravatar.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Using DocRaptor to generate PDF" />
+<meta property="og:url" content="https://makzan.blog/2019/05/using-docraptor-to-generate-pdf/" />
+<meta property="og:description" content="This is the first post on my journal of using DocRaptor to generate PDF. I will keep posting how I use the PDF generator for my course materials. I write online courses on MakClass.com and would li…" />
+<meta property="article:published_time" content="2019-05-18T08:36:17+00:00" />
+<meta property="article:modified_time" content="2019-05-28T15:51:27+00:00" />
+<meta property="og:site_name" content="Makzan" />
+<meta property="og:image" content="https://makzan.blog/wp-content/uploads/2019/05/slides-pdf-output-1.png" />
+<meta property="og:image:width" content="2106" />
+<meta property="og:image:height" content="1257" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@makzan" />
+<meta name="twitter:text:title" content="Using DocRaptor to generate PDF" />
+<meta name="twitter:image" content="https://makzan.blog/wp-content/uploads/2015/12/cropped-mz-logo-1-270x270.png" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="/wp-content/uploads/2015/12/cropped-mz-logo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2015/12/cropped-mz-logo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2015/12/cropped-mz-logo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://makzan.blog/wp-content/uploads/2015/12/cropped-mz-logo-1-270x270.png" />
+			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="/?custom-css=264d7f9d5e" />
+		
+		
+		
+		<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.makzan.blog"]);
+  _paq.push(["setDomains", ["*.makzan.blog"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.makzan.blog/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.makzan.blog/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+		
+		
+	</head>
+	
+	
+	
+	
+	<body class="post-template-default single single-post postid-1185 single-format-standard"><div class="wrap">
+
+			<section>
+				<header>
+					<h3><a href="/" rel="home">Makzan</a> <span>/ I share what I learnt</span></h3>
+
+			</header>
+		</section>
+
+	
+	
+	
+	
+	
+
+
+					<section>
+				<article id="post-1185" class="post-1185 post type-post status-publish format-standard hentry category-docraptor category-writing">
+
+					<h1 class="post-title">Using DocRaptor to generate PDF</h1>
+					
+<p>This is the first post on my journal of using DocRaptor to generate PDF. I will keep posting how I use the PDF generator for my course materials.</p>
+
+
+
+<p>I write online courses on <a href="https://makclass.com/classrooms/mobile-web">MakClass.com</a> and would like to generate PDF book from my teaching materials. Previously, I had been using <a href="https://leanpub.com/u/makzan">LeanPub</a> to generate the PDFs. I also try generating PDF quickly by using Ulysses’ PDF export. But I need more freedoms than these approaches. I know that <a href="https://www.princexml.com/">PrinceXML</a> is the go-to PDF generation engine for converting my HTML content into PDF. But the price is too expensive for me until I met the <a href="https://docraptor.com/">DocRaptor</a>. It provides the same PrinceXML engine but charges as a subscription base. 150 documents generation per month fits my needs. So I’m now trying to create PDF slides and PDF books from my course writings.</p>
+
+
+
+<p>These are my 2 main categories:</p>
+
+
+
+<ol><li>Book content, such as my <a href="https://makclass.com/classrooms/mobile-web">mobile first web design course</a>.</li><li>Markdown slides, such as my <a href="https://python-for-beginners-slides.netlify.com/?md=inputs-and-file-operations.md">Python slide</a>.</li></ol>
+
+
+
+<p>Here are the results so far:</p>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="1186" data-permalink="https://makzan.blog/2019/05/using-docraptor-to-generate-pdf/book-pdf-output/" data-orig-file="https://makzan.blog/wp-content/uploads/2019/05/book-pdf-output.png" data-orig-size="2106,1257" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="book-pdf-output" data-image-description="" data-medium-file="https://makzan.blog/wp-content/uploads/2019/05/book-pdf-output-300x179.png" data-large-file="https://makzan.blog/wp-content/uploads/2019/05/book-pdf-output-1400x836.png" src="/wp-content/uploads/2019/05/book-pdf-output-1400x836.png" alt="" class="wp-image-1186" srcset="/wp-content/uploads/2019/05/book-pdf-output-1400x836.png 1400w, /wp-content/uploads/2019/05/book-pdf-output-300x179.png 300w, /wp-content/uploads/2019/05/book-pdf-output-768x458.png 768w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="1192" data-permalink="https://makzan.blog/2019/05/using-docraptor-to-generate-pdf/slides-pdf-output-1/" data-orig-file="https://makzan.blog/wp-content/uploads/2019/05/slides-pdf-output-1.png" data-orig-size="2106,1257" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="slides-pdf-output-1" data-image-description="" data-medium-file="https://makzan.blog/wp-content/uploads/2019/05/slides-pdf-output-1-300x179.png" data-large-file="https://makzan.blog/wp-content/uploads/2019/05/slides-pdf-output-1-1400x836.png" src="/wp-content/uploads/2019/05/slides-pdf-output-1-1400x836.png" alt="" class="wp-image-1192" srcset="/wp-content/uploads/2019/05/slides-pdf-output-1-1400x836.png 1400w, /wp-content/uploads/2019/05/slides-pdf-output-1-300x179.png 300w, /wp-content/uploads/2019/05/slides-pdf-output-1-768x458.png 768w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p>The result is so far so good. I am able to generate the book content into LeanPub similar result. The remote images are successfully embedded. I haven’t add code syntax highlighting yet. But the highlight works in my slides PDF output.</p>
+
+
+
+<p>What works so far:</p>
+
+
+
+<ul><li>Almost exactly the same output between PDF and HTML/CSS.</li><li>Can create multiple columns by using float and CSS columns.</li></ul>
+
+
+
+<p>What needs more work:</p>
+
+
+
+<ul><li>Avoid content overflow in slide, especially code blocks.</li><li>Add code syntax highlight to book PDF generation.</li><li>Add outline to the output PDF.</li></ul>
+
+
+
+<p>Here are the PDF output:</p>
+
+
+
+<div class="wp-block-file"><a href="/wp-content/uploads/2019/05/doc-95123758-book.pdf">doc-95123758-book</a><a href="/wp-content/uploads/2019/05/doc-95123758-book.pdf" class="wp-block-file__button" download>Download</a></div>
+
+
+
+<div class="wp-block-file"><a href="/wp-content/uploads/2019/05/doc-95125193-slides.pdf">doc-95125193-slides</a><a href="/wp-content/uploads/2019/05/doc-95125193-slides.pdf" class="wp-block-file__button" download>Download</a></div>
+				
+											<hr>
+						<p>
+						  Published on May 18, 2019. More articles like this:  	
+
+						  <a href="/category/docraptor/">DocRaptor</a>, <a href="/category/writing/">Writing</a>.						</p>
+						
+						<div>
+							<p>Want productive tips and web technologies links like this in your inbox each week? Sign up for <a href='https://makzan.substack.com/archive'>weekly dispatch</a> each week. No spam ever. Just useful content:</p>
+							<iframe width="100%" height="320" src="https://makzan.substack.com/embed" frameborder="0" scrolling="no"></iframe>
+					    </div>
+					
+										
+										
+				</article>
+			</section>
+		
+
+
+
+
+
+
+		<section>
+			<footer class="clearfix">
+
+				<p>I love to share know-how on web technologies.</p>
+				
+				<nav id="mainnav" class="nav-collapse"><ul id="menu-main-menu" class="menu"><li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-890"><a href="/">Home</a></li>
+<li id="menu-item-1143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1143"><a href="/articles/">Articles</a></li>
+<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-374"><a href="/html5-games-list/">Games</a></li>
+<li id="menu-item-1003" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1003"><a href="https://makzan.live/">Daily Feed</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="/about/">About</a></li>
+<li id="menu-item-1223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1223"><a href="/now">/now</a></li>
+</ul></nav>	
+
+			</footer>
+		</section>
+		</div><!-- wrap -->
+ 
+			<div style="display:none">
+	</div>
+<script type="text/javascript">/* <![CDATA[ */ jQuery(document).ready( function() { jQuery.post( "https://makzan.blog/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "3401a265b4", post_id : 1185 } ); } ); /* ]]> */</script>
+<script type='text/javascript' src='/wp-content/plugins/wp-turbolinks-5-master//js/turbolinks.min.js?ver=5.3'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201948'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Novaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/modules/wpgroho.js?ver=5.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/js/youxi.shortcode-frontend.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/plugins/tether/tether.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/bootstrap/js/bootstrap.min.js?ver=4.0.0-alpha6'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/plugins/leaflet/leaflet.js?ver=0.7.7'></script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/_inc/build/spin.min.js?ver=1.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/_inc/build/jquery.spin.min.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/makzan.blog\/wp-admin\/admin-ajax.php","nonce":"1fdf1a4acb","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/makzan.blog\/wp-login.php?redirect_to=https%3A%2F%2Fmakzan.blog%2F2019%2F05%2Fusing-docraptor-to-generate-pdf%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=20190102'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201948.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.3.2',blog:'103413133',post:'1185',tz:'8',srv:'makzan.blog'} ]);
+	_stq.push([ 'clickTrackerInit', '103413133', '1185' ]);
+</script>
+		
+
+
+
+	</body>
+</html>

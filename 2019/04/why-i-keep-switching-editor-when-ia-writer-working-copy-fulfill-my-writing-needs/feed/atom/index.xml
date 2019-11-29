@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-US"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+	<title type="text">
+	Comments on Why I keep switching editor when iA writer + Working Copy fulfill my writing needs?	</title>
+	<subtitle type="text">I share what I learnt</subtitle>
+
+	<updated>2019-04-03T13:22:51Z</updated>
+
+	<link rel="alternate" type="text/html" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/#comments" />
+	<link rel="self" type="application/atom+xml" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/feed/atom/" />
+	<id>/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/feed/atom/</id>
+<generator uri="https://wordpress.org/" version="5.3">WordPress</generator>
+	<entry>
+		<title>
+		By: James Paden (@jamespaden)			</title>
+			<link rel="alternate" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/#comment-31" type="text/html" />
+
+		<author>
+			<name>James Paden (@jamespaden)</name>
+			<uri>http://twitter.com/jamespaden</uri>
+		</author>
+
+		<id>/?p=1098#comment-31</id>
+		<updated>2019-04-03T13:22:51Z</updated>
+		<published>2019-04-03T13:22:51Z</published>
+				<content type="html" xml:base="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/#comment-31"><![CDATA[<p>Very interesting and educational perspective. Thanks for sharing! I’m a dev at DocRaptor, let us know if you need any assistance integrating us into your process!</p>
+]]></content>
+			<thr:in-reply-to ref="/?p=1098" href="/2019/04/why-i-keep-switching-editor-when-ia-writer-working-copy-fulfill-my-writing-needs/" type="text/html" />
+			</entry>
+		</feed>

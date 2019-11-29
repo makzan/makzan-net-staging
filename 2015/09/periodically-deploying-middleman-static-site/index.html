@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+	<head>
+
+		<meta charset="utf-8" />
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		
+		<link rel="pingback" href="/xmlrpc.php">
+		<link rel="alternate" type="application/rss+xml" title="Makzan" href="/feed/atom/">
+
+		
+		<title>Periodically deploying Middleman static site &#8211; Makzan</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-style-css'  href='//fonts.googleapis.com/css?family=Lato:400,400italic,900' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='/wp-content/themes/ponder/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='youxi-shortcode-bootstrap-css'  href='/wp-content/plugins/youxi-shortcode/assets/frontend/bootstrap/css/bootstrap.min.css?ver=4.0.0-alpha6' type='text/css' media='screen' />
+<link rel='stylesheet' id='leaflet-css'  href='/wp-content/plugins/youxi-shortcode/assets/frontend/plugins/leaflet/leaflet.css?ver=0.7.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='jetpack_css-css'  href='/wp-content/plugins/jetpack/css/jetpack.css?ver=7.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel='prev' title='New Makzan.net in beta' href='/2015/09/new-makzan-net-in-beta/' />
+<link rel='next' title='Configure files to copy without middleman building process' href='/2015/09/configure-files-to-copy-without-middleman-building-process/' />
+<link rel="canonical" href="/2015/09/periodically-deploying-middleman-static-site/" />
+<link rel='shortlink' href='https://wp.me/p6ZUtL-24' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2015%2F09%2Fperiodically-deploying-middleman-static-site%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2015%2F09%2Fperiodically-deploying-middleman-static-site%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'/>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//s1.wp.com'/>
+<link rel='dns-prefetch' href='//s2.wp.com'/>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'/>
+<link rel='dns-prefetch' href='//0.gravatar.com'/>
+<link rel='dns-prefetch' href='//1.gravatar.com'/>
+<link rel='dns-prefetch' href='//2.gravatar.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Periodically deploying Middleman static site" />
+<meta property="og:url" content="https://makzan.blog/2015/09/periodically-deploying-middleman-static-site/" />
+<meta property="og:description" content="The new makzan.net is built on top of Middleman static site generator. Then I deploy the site as a Github pages. I use middleman-deploy gem to setup the Github pages deployment, which I follow thei…" />
+<meta property="article:published_time" content="2015-09-19T08:50:33+00:00" />
+<meta property="article:modified_time" content="2015-11-30T08:51:14+00:00" />
+<meta property="og:site_name" content="Makzan" />
+<meta property="og:image" content="https://makzan.blog/wp-content/uploads/2015/12/cropped-mz-logo-1.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@makzan" />
+<meta name="twitter:text:title" content="Periodically deploying Middleman static site" />
+<meta name="twitter:image" content="https://makzan.blog/wp-content/uploads/2015/12/cropped-mz-logo-1-270x270.png" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="/wp-content/uploads/2015/12/cropped-mz-logo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/2015/12/cropped-mz-logo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2015/12/cropped-mz-logo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://makzan.blog/wp-content/uploads/2015/12/cropped-mz-logo-1-270x270.png" />
+			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="/?custom-css=264d7f9d5e" />
+		
+		
+		
+		<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.makzan.blog"]);
+  _paq.push(["setDomains", ["*.makzan.blog"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.makzan.blog/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//analytics.makzan.blog/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+		
+		
+	</head>
+	
+	
+	
+	
+	<body class="post-template-default single single-post postid-128 single-format-standard"><div class="wrap">
+
+			<section>
+				<header>
+					<h3><a href="/" rel="home">Makzan</a> <span>/ I share what I learnt</span></h3>
+
+			</header>
+		</section>
+
+	
+	
+	
+	
+	
+
+
+					<section>
+				<article id="post-128" class="post-128 post type-post status-publish format-standard hentry category-web-design">
+
+					<h1 class="post-title">Periodically deploying Middleman static site</h1>
+					<p>The new <a href="http://makzan.net/">makzan.net</a> is built on top of <a href="https://middlemanapp.com/">Middleman</a> static site generator. Then I deploy the site as a Github pages.</p>
+<p>I use <code>middleman-deploy</code> gem to setup the Github pages deployment, which I follow their default setting:</p>
+<div class="highlight ruby">
+<table>
+<tbody>
+<tr>
+<td class="gutter gl">
+<pre class="lineno">1
+2
+3
+4</pre>
+</td>
+<td class="code">
+<pre><span class="n">activate</span> <span class="ss">:deploy</span> <span class="k">do</span> <span class="o">|</span><span class="n">deploy</span><span class="o">|</span>
+  <span class="n">deploy</span><span class="p">.</span><span class="nf">build_before</span> <span class="o">=</span> <span class="kp">true</span>
+  <span class="n">deploy</span><span class="p">.</span><span class="nf">method</span> <span class="o">=</span> <span class="ss">:git</span>
+<span class="k">end</span>
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>I use <a href="http://c9.io/">Cloud9</a> for development and run the following cron job hourly.</p>
+<div class="highlight shell">
+<table>
+<tbody>
+<tr>
+<td class="gutter gl">
+<pre class="lineno">1</pre>
+</td>
+<td class="code">
+<pre>5 <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> /project_path/build_and_deploy.sh &gt; /project_path/cron.log 2&gt;&amp;1
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In which, the <code>build_and_deploy.sh</code> executes the <code>middleman deploy</code>command under the project folder.</p>
+<div class="highlight shell">
+<table>
+<tbody>
+<tr>
+<td class="gutter gl">
+<pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8</pre>
+</td>
+<td class="code">
+<pre>!/usr/bin/env bash
+
+<span class="nb">source</span> /usr/local/rvm/environments/ruby-2.2.1
+<span class="nb">source</span> /home/ubuntu/.nvm/nvm.sh
+
+<span class="nb">cd</span> /project_path
+
+middleman deploy
+</pre>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The <code>source</code> is to make the <code>rvm</code> and <code>node</code> environment works from the cron environment.</p>
+				
+											<hr>
+						<p>
+						  Published on September 19, 2015. More articles like this:  	
+
+						  <a href="/category/web-design/">Web Technologies</a>.						</p>
+						
+						<div>
+							<p>Want productive tips and web technologies links like this in your inbox each week? Sign up for <a href='https://makzan.substack.com/archive'>weekly dispatch</a> each week. No spam ever. Just useful content:</p>
+							<iframe width="100%" height="320" src="https://makzan.substack.com/embed" frameborder="0" scrolling="no"></iframe>
+					    </div>
+					
+										
+										
+				</article>
+			</section>
+		
+
+
+
+
+
+
+		<section>
+			<footer class="clearfix">
+
+				<p>I love to share know-how on web technologies.</p>
+				
+				<nav id="mainnav" class="nav-collapse"><ul id="menu-main-menu" class="menu"><li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-890"><a href="/">Home</a></li>
+<li id="menu-item-1143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1143"><a href="/articles/">Articles</a></li>
+<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-374"><a href="/html5-games-list/">Games</a></li>
+<li id="menu-item-1003" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1003"><a href="https://makzan.live/">Daily Feed</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="/about/">About</a></li>
+<li id="menu-item-1223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1223"><a href="/now">/now</a></li>
+</ul></nav>	
+
+			</footer>
+		</section>
+		</div><!-- wrap -->
+ 
+			<div style="display:none">
+	</div>
+<script type="text/javascript">/* <![CDATA[ */ jQuery(document).ready( function() { jQuery.post( "https://makzan.blog/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "3401a265b4", post_id : 128 } ); } ); /* ]]> */</script>
+<script type='text/javascript' src='/wp-content/plugins/wp-turbolinks-5-master//js/turbolinks.min.js?ver=5.3'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201948'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Novaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/jetpack/modules/wpgroho.js?ver=5.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/js/youxi.shortcode-frontend.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/plugins/tether/tether.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/bootstrap/js/bootstrap.min.js?ver=4.0.0-alpha6'></script>
+<script type='text/javascript' src='/wp-content/plugins/youxi-shortcode/assets/frontend/plugins/leaflet/leaflet.js?ver=0.7.7'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201948.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.3.2',blog:'103413133',post:'128',tz:'8',srv:'makzan.blog'} ]);
+	_stq.push([ 'clickTrackerInit', '103413133', '128' ]);
+</script>
+		
+
+
+
+	</body>
+</html>
