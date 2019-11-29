@@ -90,7 +90,7 @@ article ul li, body#tinymce.wp-editor ul li { list-style: disc; padding-bottom: 
 
 hr { border: none; border-top: 2px solid #f8f8f8; width: 30px; text-align: center; margin: 30px auto; outline: none; }
 
-a, body#tinymce.wp-editor a { color: #262626; transition: color .4s; }
+a, body#tinymce.wp-editor a { transition: color .4s; }
 	.menu a, article a, body#tinymce.wp-editor a { border-bottom: 1px solid #e5e5e5; font-weight: 700; }
 	footer a { border-bottom: 1px solid #e5e5e5; color: #adadad; }
 	article a:hover, footer a:hover, .menu a:hover, body#tinymce.wp-editor a:hover { color: #adadad; }
@@ -229,10 +229,11 @@ header a:hover {
 }
 
 a {
-/* 	color: steelblue; */
+	color: #0275d8;
 }
 
 a:hover {
+	color: steelblue;
 	text-decoration: none;
 }
 
